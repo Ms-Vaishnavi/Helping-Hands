@@ -1,0 +1,94 @@
+html, body {
+  min-height: 100%;
+}
+
+body{
+  min-height: 100%;
+  text-align: center;
+  background-image: url("team-ethnicity-group-hands.jpg");
+  background-repeat: no-repeat;
+  /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2); */
+
+  background-position: center;
+  /* position: relative; */
+  background-size: cover;
+
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+  font-size: 4rem;
+  margin: 10% auto 1%;
+  font-family: cursive;
+  color: #FC4F4F;
+}
+
+p{
+  font-size: 1.5rem;
+  color: #FF9F45;
+}
+
+.navbar{
+  background-color: #FFD076;
+  color: #FC4F4F;
+  opacity: 1;
+}
+
+.nav-link{
+    color: #FC4F4F;
+}
+
+.button {
+  box-sizing: border-box;
+  margin: 5% auto;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #FF9F45;
+  border-style: solid;
+  background-color: #FFD076;
+  color: #FC4F4F;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: transparent;
+  color: #FC4F4F;
+  font-weight: bold;
+}
+
+.about{
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.content-c {
+  /* height: 60vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;*/
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  color: #FC4F4F;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.connect-us{
+  margin-bottom: 30px;
+}
+input{
+  background: transparent;
+  margin-bottom: 10px;
+}
